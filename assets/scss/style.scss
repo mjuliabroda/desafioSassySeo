@@ -1,0 +1,43 @@
+/* style sobrenosotros */
+
+$colorprimario: #6bc7c5;
+$colorsecundario: #f96b64;
+
+$estilos:(
+    color: whitesmoke,
+    centro: center,
+    margen: 20px,
+);
+
+@mixin propiedades ($ancho, $alto, $margin) {
+    width: $ancho;
+    height: $alto;
+    margin: $margin;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: $colorsecundario;
+};
+
+$estilos:(
+    color: whitesmoke,
+    centro: center,
+    margen: 20px,
+);
+    
+
+
+
+@import "import";
+@import "reset";
+@import "container_aboutus";
+@import "header";
+@import "main_aboutus";
+@import "aside_aboutus";
+@import "footer";
+@import "media";
+
+
