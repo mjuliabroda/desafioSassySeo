@@ -1,16 +1,16 @@
 /* style sobrenosotros */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .btn, aside div button {
   margin-top: 20px;
   padding: 10px;
   border-radius: 8px;
   background-color: #f96b64;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
 
 .container__aboutus {
